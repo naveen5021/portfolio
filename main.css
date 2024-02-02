@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navigation1{
+    background-color: #091837;
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: first baseline;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: background-color 0.5s ease;
+}
+.list{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.list li{
+    margin-right: 20px;
+}
+.list a{
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.list a:hover{
+    color: #ff0000;
+}
+.navbar-scrolled{
+    background-color: #555;
+}
+.logo{
+    cursor: pointer;
+}
+.logo:hover{
+    color: rgb(117, 117, 117);
+    transition: color 0.3s ease;
+}
+.Home{
+    background-image: url(./close-up-hands-shot-gamer-pushing-keyboard-buttons-while-playing-online-shooter-video-game-vi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-position: top;
+    z-index: -1;
+}
+#one{
+    color: #f7c200;
+    position: absolute;
+    top: 50%;
+    left: 950px;
+    font-weight: 500;
+    /*: translate(-50%,-50%);*/
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #a98600;
+    animation: scale 2s ease-out;
+}
+#two{
+    color: white;
+    position: absolute;
+    top: 55%;
+    right: 400px;
+    font-weight: 500;
+    font-size: 20px;
+    animation: scale1 2s ease-out;
+}
+@keyframes scale{
+    from{
+        opacity: 0.1;
+        left: 0px;
+    }
+    to{
+        left: 950px;
+    }
+}
+@keyframes scale1{
+    from{
+        top: 430px;
+        right: 0px;
+    }
+    to{
+        right: 400px;
+    }
+}
