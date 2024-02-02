@@ -57,7 +57,7 @@
     color: #f7c200;
     position: absolute;
     top: 50%;
-    left: 950px;
+    left: 45%;
     font-weight: 500;
     /*: translate(-50%,-50%);*/
     font-size: 30px;
@@ -68,7 +68,7 @@
     color: white;
     position: absolute;
     top: 55%;
-    right: 400px;
+    right: 45%;
     font-weight: 500;
     font-size: 20px;
     animation: scale1 2s ease-out;
